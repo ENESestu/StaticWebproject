@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <meta name="description" content="BIM222 HOMEWORK">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="Enes OZTURK">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        aside{
+            display: flex;
+            width: 100%;
+            margin: 2px;
+            background-color: #F5F5F5;
+        }
+
+        .announcements-home{
+            min-width: 260px;
+            display: block;
+            width: 40%;
+        }
+
+        .calender{
+            display: flex;
+            flex-direction: column;
+            width: 80px;
+            min-width: 80px;
+            min-height: 80px;
+            background-color: burlywood;
+            margin-right: 2px;
+            font-size: 24px;
+        }
+        ul{
+            padding: 0px;
+            min-height: 596px;
+
+        }
+        li{
+            display: flex;
+            min-width: 260px;
+            min-height: auto;
+            flex-wrap: nowrap;
+            list-style-type: none;
+            margin-bottom: 5px;
+        }
+        .picture{
+            align-items: end;
+            display: flex;
+            flex-direction: column;
+            margin-left: 1px;
+            width: 60%;
+        }
+        .text{
+            text-align: left;
+            height: auto;
+        }
+        img{
+            box-shadow: 3px 3px 10px black;
+            margin: 10px;
+            max-width: 500px;
+        }
+        .date{
+            width: 100%;
+            height: 50%;
+        }
+        .month{
+            width: 100%;
+        }
+        a{
+            text-decoration-line: none;
+        }
+        #img1{
+            transition: transform .2s;
+        }
+        #img1:hover{
+            -ms-transform: scale(1.02);
+            -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+        }
+        #img2 {
+            transition: transform .2s;
+        }
+        #img2:hover{
+            -ms-transform: scale(1.02);
+            -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+        }
+
+    </style>
+</head>
+<body>
+<div class="main-container">
+    <div class="top-container">
+        <h1>
+            ESKİŞEHİR TEKNİK ÜNİVERSİTESİ
+        </h1>
+    </div>
+    <div class="middle-container">
+        <nav >
+            <div class="page-ref">
+                <a href="HOME.html" class="ref" style="font-size: 24px">HOME</a>
+            </div>
+            <div class="page-ref">
+                <a href="UNIVERSİTY.html" class="ref">UNIVERSITY</a>
+
+            </div>
+            <div class="page-ref">
+                <a href="ACADEMICS.html" class="ref">ACADEMIC</a>
+
+            </div>
+            <div class="page-ref" id="dropdown">
+                <a href="STUDENTS%20.html" class="ref" >STUDENTS</a>
+                <div  class="inner-page-ref">
+                    <a href="STUDENT%20LOGIN.html" class="ref" id="st-login">STUDENTS LOGIN</a>
+                </div>
+
+                <div class="inner-page-ref">
+                    <a href="DOCUMENTS%20.html" class="ref">DOCUMENTS</a>
+
+                </div>
+            </div>
+
+            <div class="page-ref">
+                <a href="CAMPUS%20LIFE%20.html" class="ref">CAMPUS LIFE</a>
+
+            </div>
+            <div class="page-ref">
+                <a href="RESEARCH.html" class="ref">RESEARCH</a>
+
+            </div>
+        </nav>
+        <aside>
+            <div class="announcements-home">
+                <ul >
+                    <li>
+                        <div class="calender">
+                            <span class="date">8</span>
+                            <span class="month">Nisan</span>
+                        </div>
+                        <div class="text">
+                            Antalya Organize Sanayi Bölgesi AR-GE ve İnovasyon Proje Pazarı'na Katılım Çağrısı
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="calender">
+                            <span class="date">1</span>
+                            <span class="month">Nisan</span>
+                        </div>
+                        <div class="text">
+                            Öğrencilerimizin Dikkatine: ESTÜ - Kodluyoruz & Patika.dev Akademi Programı'na Davetlisiniz
+                        </div>
+                    </li>
+                    <li>
+                        <div class="calender">
+                            <span class="date">27</span>
+                            <span class="month">Mart</span>
+                        </div>
+                        <div class="text">
+                            Akademik Kulüp Restoran'ın Ramazan Ayı Hizmeti Duyurusu
+                        </div>
+                    </li>
+                    <li>
+                        <div class="calender d-flex ">
+                            <span class="date">23</span>
+                            <span class="month">Mart</span>
+                        </div>
+                        <div class="text">
+                            Öğrencilerimizin Dikkatine: ESTÜ - TÜRASAŞ Akademi İle Raylı Sistemler Teknolojilerini Öğrenmeye Ne Dersiniz?                        </div>
+                    </li>
+                    <li>
+                        <div class="calender">
+                            <span class="date">12</span>
+                            <span class="month">Mart</span>
+                        </div>
+                        <div class="text">
+                            Üniversitemizin Anlaşmalı Olduğu Firmalara İlişkin Güncel Duyuru (24.03.2022)                        </div>
+                    </li>
+                    <li>
+                        <div class="calender">
+                            <span class="date">1</span>
+                            <span class="month">Mart</span>
+                        </div>
+                        <div class="text">
+                            Eskişehir Teknik Üniversitesi 2021 Yılı İdare Faaliyet Raporu Yayımlandı                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="picture">
+                <img id="img1" src="../pictures/estu1.jpg" alt="Eskisehir Teknik Üniversitesi">
+                <img id="img2" src="../pictures/estü2.jpg" alt="Eskisehir Teknik Üniversitesi">
+            </div>
+
+        </aside>
+    </div>
+    <div class="bottom-container">
+
+        <footer >
+            Hazırlayan: Enes ÖZTÜRK
+        </footer>
+
+    </div>
+</div>
+</body>
+</html>

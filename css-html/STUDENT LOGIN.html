@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STUDENT LOGIN</title>
+    <meta name="description" content="BIM222 HOMEWORK">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="Enes OZTURK">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        aside{
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 2px;
+            justify-content: center;
+            align-items: center;
+            background-color: #F5F5F5;
+        }
+
+        .login{
+            width: 300px;
+            height: 400px;
+            background-color: #D7A86E;
+            border-radius: 10px;
+        }
+        .login{
+            font-size: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+            line-height: 24px;
+        }
+    </style>
+</head>
+<body>
+<div class="main-container">
+    <div class="top-container">
+        <h1>
+            ESKİŞEHİR TEKNİK ÜNİVERSİTESİ
+        </h1>
+    </div>
+    <div class="middle-container">
+        <nav >
+            <div class="page-ref">
+                <a href="HOME.html" class="ref">HOME</a>
+            </div>
+            <div class="page-ref">
+                <a href="UNIVERSİTY.html" class="ref">UNIVERSITY</a>
+
+            </div>
+            <div class="page-ref">
+                <a href="ACADEMICS.html" class="ref">ACADEMIC</a>
+
+            </div>
+            <div class="page-ref" id="dropdown">
+                <a href="STUDENTS%20.html" class="ref" >STUDENTS</a>
+                <div  class="inner-page-ref">
+                    <a href="STUDENT LOGIN.html" class="ref" id="st-login" style="font-size: 20px">STUDENTS LOGIN</a>
+                </div>
+
+                <div class="inner-page-ref">
+                    <a href="DOCUMENTS%20.html" class="ref">DOCUMENTS</a>
+
+                </div>
+            </div>
+
+            <div class="page-ref">
+                <a href="CAMPUS%20LIFE%20.html" class="ref">CAMPUS LIFE</a>
+
+            </div>
+            <div class="page-ref">
+                <a href="RESEARCH.html" class="ref">RESEARCH</a>
+
+            </div>
+        </nav>
+        <aside>
+            <h2>STUDENT LOGİN</h2>
+            <div class="login">
+                <form action="HOME.html" method="post">
+                    <label for="username">User Name:</label><br>
+                    <input type="text" id="username" name="userfname" placeholder="user name" required><br><br>
+                    <label for="pasword">Pasword:</label><br>
+                    <input type="password" id="pasword" name="pasword" required> <br><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </aside>
+    </div>
+    <div class="bottom-container">
+
+        <footer >
+                       Hazırlayan: Enes ÖZTÜRK
+        </footer>
+
+    </div>
+</div>
+</body>
+</html>

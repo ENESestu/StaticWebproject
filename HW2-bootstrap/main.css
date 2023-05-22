@@ -1,0 +1,57 @@
+.dropdown:hover .dropdown-menu {
+ display: block;
+ margin-top: 0;
+}
+.nav-link{
+ font-size: 1rem;
+}
+.card{
+  width: 88%;
+}
+.scale > img{
+    transition: transform .5s;
+    margin-bottom: 12px;
+}
+.scale:hover>img {
+    transform: scale(1.03);
+    box-shadow: 3px 3px 10px black;}
+.blur > img{
+    transition: opacity 2.5s;
+    margin-bottom: 12px;
+}
+.blur:hover>img {
+    opacity: 0;
+}
+
+.row{
+    margin-bottom: 12px;
+}
+.calender{
+    min-width: 48px;
+}
+.date, .month{
+    text-align: center;
+    margin-right:5px;
+    color: black;
+}
+.text{
+    max-width: 75%;
+}
+.table-text{
+    text-align: center;
+}
+
+li> a{
+    color: #B20600;
+}
+h1{
+    color: #112B3C;
+    background-color: #E2D784;
+}
+.nav-link{
+    color: #062C30;
+}
+.nav-link:hover{
+    color: #96BB7C;
+}
+
